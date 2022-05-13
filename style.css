@@ -53,3 +53,34 @@ p{
     font-weight:bold;
     margin:0;
 }
+.container{
+    width:400px;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color:rgb(175, 168, 168);
+    border-radius:20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5); 
+    border:1px solid rgb(117, 116, 116) 
+}
+.btn_container{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    }
+.btn_container .btn-counter{
+    width:50px;
+    background-color:rgb(30, 84, 81);
+    border-radius:20px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+    margin:auto;
+}
